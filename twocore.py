@@ -92,7 +92,8 @@ if __name__ =='__main__':
         if cnt > 10:
             break;
     print()
-#demonstrate the use of the Dictionary to Lookup a password using a known hash value
-pw = pwDict.get('c6f1d6b1d33bcc787c2385c19c29c208')
-print('Hash Value Tested = \ 2bca9b23eb8419728fdeca3345b344fc')
-print('Associated Password='+ pw)
+    #demonstrate the use of the Dictionary to Lookup a password using a known hash value
+    #pw = pwDict.get('c6f1d6b1d33bcc787c2385c19c29c208')
+    pw = pwDict.get('1dbdfd6de15b28f247ec7e1ec571b9f49098b82a6be400baa0fe0e44aedc4e1c')
+    print('Hash Value Tested = \ 2bca9b23eb8419728fdeca3345b344fc')
+    print('Associated Password='+ pw)
